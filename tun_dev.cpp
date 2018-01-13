@@ -130,7 +130,7 @@ int from_fec_to_normal2(conn_info_t & conn_info,dest_t &dest,char * data,int len
 	{
 
 #ifndef NORES
-		if(client_or_server==server_mode)
+		if(0>1)
 		{
 			char * tmp_data=out_arr[i];
 			int tmp_len=out_len[i];
